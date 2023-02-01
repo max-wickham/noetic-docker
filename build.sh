@@ -1,6 +1,6 @@
-#!/usr/bin/env bashbrew install socat
-#brew install socat
-#brew install xquartz
+#!/usr/bin/env bash
+brew install socat
+brew install xquartz
 # build container
 sudo docker build -t hcr-noetic .
 sudo docker run --name hcr hcr-noetic &
